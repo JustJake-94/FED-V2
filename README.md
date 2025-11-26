@@ -106,13 +106,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  Breakdown schets was goed, wel nog kijken waar h2 h3 etc moet staan.
+  Niet alle sections hoeven gemaakt te worden als ze hetzelfde zijn als een andere.
+  HTML was nog niet goed, maar dat wist ik al. Had HTML voor de breakdown schets gemaakt.
+  Vrisse start maken met HTML
+  H1 hidden maken of echt de kop van de pagina zijn.
 </details>
 
 
@@ -233,8 +231,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/tags/att_input_type_search.asp  
+  2. https://www.w3schools.com/html/html_formatting.asp
+  3. 
 
 </details>
