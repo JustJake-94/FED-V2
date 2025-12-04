@@ -45,7 +45,7 @@
 	color: green
 } 
 
-header { background-color: #0000A3;
+.menu { background-color: #0000A3;
      color: white; 
      text-align: center;
 	 margin-bottom: 3em;
@@ -55,54 +55,63 @@ header { background-color: #0000A3;
 
 }
 
-header img {
+.menu img {
+	
 	scale: 80%;
 }
  
 input{
-     padding-left: 6em;
-	 margin-left: 15em;
-	 margin-right: 7em;
-	 padding-bottom: 2em;
-	 padding-left: 10em;
-	 padding-right: 10em;
+    scale: 250%;
 	 border-radius: 3em;
-	 margin-bottom: 4em;
-	 
+	 margin-top: 2em;
+	 margin-bottom: 2em;
+	 margin-left: 15em;
+	 margin-right: 15em;
 
 }
 
 nav {
 	display: flex;
 	justify-content: center;
-	border: solid black;
+	border-bottom: solid black;
 	margin-top: 0em; 
-	padding-top: 0em;
+	padding-top: 2em;
+     
 }
 
 nav a{
        margin-right: 1em;
 }
 
-details {
-         margin-right: 3em;
 
-}
 
 .BlackFriday {
 	display: flex;
 	justify-content: center;
 	margin: 0em;
 	padding-top: 2em;
+	
 }
 
 .BlackFriday img {
     border-radius: 3em;
+	
 }
 
-.Populair{ 
-	background-color: black;
-	
+.deals {
+    
+	scale: 70%
+}
+
+.deals img {
+border-radius: 2em;
+margin-left: 3em;
+
+
+}
+
+.Populair img{ 
+		scale: 75%;
 }
 
 
@@ -115,11 +124,15 @@ details {
 .Carrousel img {
 	margin: 1em;
 	padding: 3em;
-	background-color: gray;
-
+	background-color: rgb(226, 226, 226);
+    border-radius: 3em;
+	border: solid rgb(209, 209, 209);
+	scale: 70%;
+	margin-left: 0em;
+	margin-right: 0em;
 }
 
-footer h2 { 
+.service h2 { 
 	scale: 75%;
  }
 
@@ -128,54 +141,119 @@ footer h2 {
 
 }
 
-section img { 
-	padding: 0.2em;
-	border-radius: 3em;
-	}
 
-section{
-	scale:65%;
-	padding-top: 0em;
-	font-size: larger;
-}
 
-section h2 {
-	font-size: 3em;
-}
-
-footer { 
+.service { 
 display: flex;
 justify-content: center;
 background-color: #0000A3;
 color: white;
 padding-bottom: 2em;
 padding-top: 2em;
-}
-
-footer article { 
 
 }
 
-footer img { 
+
+
+.service img { 
 	display: flex;
 justify-content: center;
 margin-left: 5em;
 margin-right: 3em;
 }
 
-footer p {
+.service p {
 	margin: 0%;
 	display: flex;
 	justify-content: center;
 }
 
-footer h3 {
+.service h3 {
 margin: 1%;
 font-weight: bold;
 
 }
 
-footer a{
+.service a{
 	color:#eee;
 
 }
+
+.legal {
+  text-align: center;
+}
+.legal img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bg-img {
+    width: 100%; 
+    display: block;
+}
+
+.Populair {
+    position: relative;
+    width: 100%;
+}
+
+.bg-img {
+    width: 50%;
+    display: block;
+	
+}
+
+.overlay {
+    position: absolute;
+    top: 15em;        
+    left: 15em;
+    z-index: 10;      
+    color: rgb(0, 0, 0);
+    background-color: gray;
+	border-radius: 3em;
+	padding: 1em;
+}
+
+.logo-img {
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.service2 {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+
+
+}
+
+.service2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+.Ontdek {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2em;
+	
+}
+
+.Ontdek h2 {
+    grid-column: 1 / -1; 
+}
+
+.categorie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0 0 0;
+}
+
+.categorie li {
+    margin-bottom: 0.4em
+}
+
+

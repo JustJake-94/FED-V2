@@ -139,8 +139,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - punt 1: Mobile first maken
+  - punt 2: Header en footer compleet. Niks boven de header en niks onder de footer.
   - nog een punt
 - ...
 
@@ -233,6 +233,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. https://www.w3schools.com/tags/att_input_type_search.asp  
   2. https://www.w3schools.com/html/html_formatting.asp
-  3. 
+  3. https://www.w3schools.com/howto/howto_css_image_text.asp
+  4. Chatgpt - Prompt: "Hoe zorg ik er voor dat deze afbeelding en text in het midden wordt gezet?"
+  5. Chatgpt - Prompt: "Hoe maak je van deze <h3> en <p> 4 kolomen en 3 rijen?"
 
 </details>
