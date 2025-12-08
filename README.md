@@ -236,5 +236,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. https://www.w3schools.com/howto/howto_css_image_text.asp
   4. Chatgpt - Prompt: "Hoe zorg ik er voor dat deze afbeelding en text in het midden wordt gezet?"
   5. Chatgpt - Prompt: "Hoe maak je van deze <h3> en <p> 4 kolomen en 3 rijen?"
+  6. Chatgpt - Prompt: "Hoe maak ik voor deze section een simpele carousel die eerst 4 afbeeldingen laat zien en dan de rest?"
 
 </details>
