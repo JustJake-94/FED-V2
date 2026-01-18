@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Jake laan
 
   #### Je startniveau:
-  Rood
+  blauw
 
   #### Je focus:
   Responsive
@@ -46,6 +46,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Product pagina
   <img src="readme-images/screenshot_pagina_2.jpg" width="375px" alt="Product pagina van een Lego gameboy op bol punt com">
  
+
+  Homepage 2
+  <img src="readme-images/Homepage_full.png" width="375px" alt= "Hoofdpagina nintendo punt nl">
+
 </details>
 
 
@@ -74,12 +78,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/FED_breakdown_schets.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  Schets V2:
+  <img src="readme-images/FED Scherm Schets - Frame 2.jpg" width="375px" alt="breakdown schets van de pagina">
 </details>
 
 
@@ -235,7 +235,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. https://www.w3schools.com/html/html_formatting.asp
   3. https://www.w3schools.com/howto/howto_css_image_text.asp
   4. Chatgpt - Prompt: "Hoe zorg ik er voor dat deze afbeelding en text in het midden wordt gezet?"
-  5. Chatgpt - Prompt: "Hoe maak je van deze <h3> en <p> 4 kolomen en 3 rijen?"
+  5. Chatgpt - Prompt: "Hoe maak je van deze h3> en p> 4 kolomen en 3 rijen?"
   6. Chatgpt - Prompt: "Hoe maak ik voor deze section een simpele carousel die eerst 4 afbeeldingen laat zien en dan de rest?"
-
+  7. https://www.w3schools.com/howto/howto_css_dropdown.asp
+  8. Chatgpt- Prompt: "Hoe maak ik een verticale navigatie balk?"
+  9.  https://www.w3schools.com/howto/howto_js_sidenav.asp
+  10. Chatgpt- Prompt: "Hoe zorg ik er voor dat als je buiten het pop up menu klikt deze verdwijnt?"
+  11. https://www.w3schools.com/howto/howto_css_transition_hover.asp
+  12. https://cssgrid-generator.netlify.app/
+  13. ChatGPT prompt: "hoe maak ik een embedded Youtube video responsive?"
 </details>
