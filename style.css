@@ -82,11 +82,11 @@ header img {
     display: flex;
     flex-direction: column;  
     align-items: center;     
-    gap: 0.25rem;            
+    gap: 0.25em;            
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 .header-links a img {
@@ -191,7 +191,7 @@ padding-left: 18em;
 
 .update-main {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.5em;
   align-items: flex-start;
   background-color: var(--crd);
   margin-right: 0.3em;
@@ -248,8 +248,8 @@ border-top-right-radius: 1em;
 .updatesub {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
  
 }
 
@@ -295,8 +295,8 @@ border-top-right-radius: 1em;
 .games {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
   max-width: 70%;
   margin-left: auto;
   margin-right: 15%;
@@ -344,8 +344,8 @@ border-top-right-radius: 1em;
 .apps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
   max-width: 70%;
   margin-left: auto;
   margin-right: 15%;
@@ -400,8 +400,8 @@ border-top-right-radius: 1em;
 .store {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
   max-width: 70%;
   margin-left: auto;
   margin-right: 15%;
@@ -442,7 +442,7 @@ color: var(--clr)
 .store-button {
   grid-column: 1 / -1;
     justify-self: center;
-  margin-top: 2rem;
+  margin-top: 2em;
   color: white;
   border: solid 2px white;
   margin-bottom: 2em;
@@ -476,10 +476,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 .hardware-card-upper {
   display: flex;
   align-items: center;
-  gap: 1rem; 
+  gap: 1em; 
   background-color:#e60012;
   border-radius: 1em;
-  padding: 1.5rem;
+  padding: 1.5em;
 
 }
 
@@ -487,7 +487,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column; 
   align-items: center;     
-  gap: 0.5rem;
+  gap: 0.5em;
   font-size: x-large;
   color: white;
   padding-left: 5em;
@@ -563,7 +563,7 @@ padding-left: 10em;
 .online-card .images {
   display: flex;
   flex-direction: row;       
-  gap: 0.5rem;
+  gap: 0.5em;
 }
 
 .online-card .images img {
@@ -576,7 +576,7 @@ padding-left: 10em;
   display: flex;
   flex-direction: column;
   justify-content: center;    
-  gap: 0.5rem;
+  gap: 0.5em;
   flex: 1;                    
 }
 
@@ -596,7 +596,7 @@ padding-left: 10em;
   width: 80%;
   max-width: 1250px;
   max-height: auto;
-  margin: 2rem auto;
+  margin: 2em auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -608,12 +608,12 @@ padding-left: 10em;
   max-height: 650px;
   border-radius: 10px;
   display: block;
-  margin: 0 1rem;
+  margin: 0 1em;
 }
 
 button {
   color: var(--clr);
-  font-size: 2rem;
+  font-size: 2em;
   background: none;
   border: none;
   cursor: pointer;
@@ -783,8 +783,8 @@ border-top-right-radius: 1em;
 .uitgelicht {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
  
 }
 
@@ -832,8 +832,8 @@ border-top-right-radius: 1em;
 .ontwikkel {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.5em;
+  margin-top: 2em;
  
 }
 
@@ -878,23 +878,4 @@ color: var(--crdt);
 border-radius: 1em;
 
 
-}
-/* Meer section------------------------------------------------------------------------*/ 
-
-.meer h2{
-display: none;
-
-}
-
-.meer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5em;
-  margin-top: 2rem;
- 
-}
-
-.functies img{
-width: 10%;
-height: auto;
 }
