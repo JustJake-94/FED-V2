@@ -244,4 +244,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   11. https://www.w3schools.com/howto/howto_css_transition_hover.asp
   12. https://cssgrid-generator.netlify.app/
   13. ChatGPT prompt: "hoe maak ik een embedded Youtube video responsive?"
+  14. hamburger menu voor table en phone Chatgpt prompt: Hoe maak ik hier een hamburger menu die alleen te zien is op tablet en phone?
 </details>

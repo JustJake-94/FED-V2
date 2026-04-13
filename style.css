@@ -83,6 +83,9 @@ text-decoration: underline;
 
 }
 
+
+
+
 /*Footer--------------------------------------------------------------------------------------*/
 
 footer {
@@ -809,6 +812,13 @@ padding-left: 1em;
  color: #e60012;
  text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .sidenav {
+     left: 150px; 
+  }
+}
+
 
 /*Overzicht pagina-----------------------------------------------------------------*/
 
@@ -1640,6 +1650,11 @@ padding-left: 1em;
   font-weight: bolder;
 }
 
+.VragenButtons button:hover {
+  background-color: #8a8a8a;
+  color: white;
+}
+
 .VragenSupportButton:hover {
   background-color: #c20010;
   color: white;
@@ -1694,5 +1709,113 @@ padding-left: 1em;
 
   .Vragen > p {
     font-size: 0.9em;
+  }
+}
+
+.hamburger {
+  display: none;
+  position: static; 
+  margin-right: 1em;
+  background: #e60012;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 5px 0;
+}
+
+
+@media (max-width: 1024px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .sidebar {
+    display: block;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    width: 150px;
+    z-index: 1000;
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  header {
+    justify-content: flex-start;
+    gap: 1em;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header-links {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  header {
+    padding: 0.8em 1em;
+    gap: 0.5em;
+  }
+
+  header img {
+    height: 30px;
+  }
+
+  header label {
+    font-size: 0.7em;
+  }
+
+  .header-links {
+    gap: 0.5em;
+  }
+
+  .header-links a {
+    font-size: 0.7em;
+  }
+
+  .header-links a img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 0.5em;
+    gap: 0.3em;
+  }
+
+  header img {
+    height: 25px;
+  }
+
+  .header-links {
+    gap: 0.3em;
+  }
+
+  .header-links a {
+    font-size: 0.6em;
+  }
+
+  .header-links a img {
+    width: 14px;
+    height: 14px;
   }
 }

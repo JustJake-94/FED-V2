@@ -113,3 +113,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+
+/* hamburger menu voor table en phone Chatgpt prompt: Hoe maak ik hier een hamburger menu die alleen te zien is op tablet en phone?*/
+
+function toggleMenu() {
+  document.querySelector('.sidebar').classList.toggle('active');
+}
